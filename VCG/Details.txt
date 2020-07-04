@@ -1,0 +1,13 @@
+Download and Compile it
+https://github.com/nccgroup/VCG
+
+Jenkins
+1. Create any new JoB
+2. Execute Windows Commands
+3. Give the path of the batch file
+
+Create Batch File with the below content (scan.bat)
+cd "C:\VCG_Compiled"
+VisualCodeGrepper.exe -c --csv-export hello.csv -t "Source_Folder_to_Scan" --results hello.txt -l JAVA 
+
+
