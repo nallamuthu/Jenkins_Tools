@@ -1,0 +1,6 @@
+Jenkins Plugins - Install
+"OWASP Dependency-Check Plugin"
+
+1. Create Project
+2. Select Build Step - "Invoke Dependecy-Check"
+--scan "Folder_To_Scan" --project "Vulnerable_JARS" -f ALL
